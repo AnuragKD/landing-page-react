@@ -141,6 +141,7 @@ const HeroSection = () => {
                 <img src={folderTop} alt="Folder front pocket overlay" aria-hidden="true" className="relative z-20 h-auto w-full object-contain" draggable={false} />
                 <div className="absolute left-0 w-1/2 bottom-0 top-[3%] bg-white/0 backdrop-blur-[50px] rounded-r-[25%] rounded-l-[21%]"></div>
                 <div className="absolute right-0 top-[12%] bottom-0 left-0 bg-white/0 backdrop-blur-[50px]  rounded-[16%]"></div>
+                <div className="absolute top-[10%] left-[46%] w-[3%] h-[2%] bg-white/0 backdrop-blur-[50px] rounded-tr-[100%] [corner-shape:superellipse] [-webkit-corner-shape:superellipse]"></div>
               </div>
             </div>
           </div>
@@ -239,6 +240,7 @@ const HeroSection = () => {
               <img src={folderTop} alt="Folder front pocket overlay" aria-hidden="true" className="relative z-20 h-auto w-full object-contain" draggable={false} />
               <div className="absolute left-0 w-1/2 bottom-0 top-[3%] bg-white/0 backdrop-blur-[50px] rounded-r-[25%] rounded-l-[21%]"></div>
               <div className="absolute right-0 top-[12%] bottom-0 left-0 bg-white/0 backdrop-blur-[50px]  rounded-[16%]"></div>
+              <div className="absolute top-[10%] left-[46%] w-[3%] h-[2%] bg-white/0 backdrop-blur-[50px] rounded-tr-[100%] [corner-shape:superellipse] [-webkit-corner-shape:superellipse]"></div>
             </div>
           </div>
         </div>
