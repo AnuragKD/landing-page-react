@@ -127,7 +127,7 @@ const HeroSection = () => {
             className="absolute left-0 right-0 w-full flex justify-center overflow-visible z-20 before:absolute before:inset-0 before:z-30 before:content-[''] before:bg-[linear-gradient(0deg,_#F7F7F7_26.08%,_rgba(245,244,240,0)_100%)]"
             style={{ top: "calc(100vh - 150px)" }}
           >
-            <div className="relative mx-5 w-full select-none overflow-visible">
+            <div className="relative xl:mx-5 w-full select-none overflow-visible">
               <img src={folderBottom} alt="Folder base background" aria-hidden="true" className="relative z-0 h-auto w-full object-contain" draggable={false} loading="eager" />
 
               <div ref={phoneRef} className="absolute top-[-160px] left-1/2 z-10 w-1/3 max-w-[400px] -translate-x-1/2 overflow-visible">
@@ -139,6 +139,8 @@ const HeroSection = () => {
 
               <div className="absolute inset-0 z-25 pointer-events-none">
                 <img src={folderTop} alt="Folder front pocket overlay" aria-hidden="true" className="relative z-20 h-auto w-full object-contain" draggable={false} />
+                <div className="absolute left-0 w-1/2 bottom-0 top-[3%] bg-white/0 backdrop-blur-[50px] rounded-r-[25%] rounded-l-[21%]"></div>
+                <div className="absolute right-0 top-[12%] bottom-0 left-0 bg-white/0 backdrop-blur-[50px]  rounded-[16%]"></div>
               </div>
             </div>
           </div>
@@ -235,6 +237,8 @@ const HeroSection = () => {
             />
             <div className="absolute left-0 right-0 bottom-0 z-25 pointer-events-none before:absolute before:inset-0 before:z-30 before:content-[''] before:bg-[linear-gradient(0deg,_#F7F7F7_26.08%,_rgba(245,244,240,0)_100%)]">
               <img src={folderTop} alt="Folder front pocket overlay" aria-hidden="true" className="relative z-20 h-auto w-full object-contain" draggable={false} />
+              <div className="absolute left-0 w-1/2 bottom-0 top-[3%] bg-white/0 backdrop-blur-[50px] rounded-r-[25%] rounded-l-[21%]"></div>
+              <div className="absolute right-0 top-[12%] bottom-0 left-0 bg-white/0 backdrop-blur-[50px]  rounded-[16%]"></div>
             </div>
           </div>
         </div>
