@@ -24,7 +24,7 @@ const Footer = () => {
     >
       {/* ── Background video (lazy-loaded) ────────────────────────────────── */}
       {videoSrc && !prefersReduced && (
-        <div className="bg-black pointer-events-none absolute overflow-hidden inset-0 h-full w-[100%-40px] rounded-t-4xl mx-5">
+        <div className="bg-black pointer-events-none absolute overflow-hidden inset-0 h-full w-[100%-40px] rounded-t-4xl mx-0 xl:mx-5">
           <video
             ref={videoRef}
             src={videoSrc}
