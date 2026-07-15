@@ -1,0 +1,32 @@
+/* ─── Typography Utilities ──────────────────────────────────────────────────── */
+/*
+ * Shared @layer utilities for frequently repeated typography patterns.
+ * Apply these classes in JSX to reduce long, repetitive class strings.
+ *
+ * Responsive overrides should still be added inline where needed
+ * (e.g., sm:text-[46px] lg:text-[60px] on section headings).
+ */
+
+@layer utilities {
+  /* Serif body text — used in section descriptions */
+  .text-body {
+    font-family: var(--font-serif);
+    font-size: 16px;
+    line-height: 1.4;
+    color: rgb(0 0 0 / 0.6);
+  }
+
+  /* Larger serif body — used in wider description columns */
+  .text-body-lg {
+    font-family: var(--font-serif);
+    font-size: 18px;
+    line-height: 1.4;
+    color: rgb(0 0 0 / 0.6);
+  }
+
+  /* Small caption / eyebrow text */
+  .text-caption {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
